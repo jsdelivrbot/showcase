@@ -1,0 +1,6 @@
+.navBar {
+    background-color: rgb(17, 15, 15);
+    height: 70px;
+    border-top: 3px solid rgb(201, 195, 195);
+    border-bottom: 1px solid rgb(13, 13, 22);
+}

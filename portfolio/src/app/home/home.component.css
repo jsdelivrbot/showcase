@@ -1,0 +1,28 @@
+.parallax { 
+    /* The image used */
+    background-image: url("/assets/portImageOne.jpg");
+
+    /* Set a specific height */
+    height: 550px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#alImage {
+    background-image: url("/assets/al.jpg");
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 75% 100%;
+    border: solid 3px gray;
+    border-radius: 15px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 115px;
+    margin-left: 110px;
+
+}
