@@ -1,4 +1,7 @@
 .parallax { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* The image used */
     background-image: url("/assets/portImageOne.jpg");
 
@@ -25,4 +28,13 @@
     bottom: 115px;
     margin-left: 110px;
 
+}
+
+.typeWriter {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(253, 247, 247);
+    font-weight: 200;
+    margin: 0.4em 0;
+    font-size: 3.5em;
+    max-width: 50%;
 }
