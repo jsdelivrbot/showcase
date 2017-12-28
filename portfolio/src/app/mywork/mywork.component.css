@@ -1,0 +1,37 @@
+#workOne {
+    background-image: url("/assets/crowded.png");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 75% 100%; */
+    border: solid 3px gray;
+    border-radius: 15px;
+   
+}
+
+#workTwo {
+
+    background-image: url("/assets/sitParker.png");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 75% 100%; */
+    border: solid 3px gray;
+    border-radius: 15px;
+
+}
+
+#workThree {
+
+    background-image: url("/assets/mje.png");
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 75% 100%; */
+    border: solid 3px gray;
+    border-radius: 15px;
+
+}

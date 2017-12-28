@@ -9,7 +9,7 @@ import {Observable} from "rxjs"
  
 })
 export class HomeComponent implements OnInit {
- carousel = ['Hello, My name is Al.','I am full-stack developer. ','I am passionate about coding. ','Thank you for visting my site.'];
+ carousel = ['Hello, My name is Al.','I am a full-stack developer. ','I am passionate about coding. ','Thank you for visting my site.'];
  words = "Hello: "
  currentWord = ""; 
  index = 0;

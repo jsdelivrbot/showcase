@@ -1,0 +1,17 @@
+agm-map {
+    height: 400px;
+   
+}
+.form-control {
+    margin-bottom: 20px;
+}
+.contact_me{
+    display: flex;
+    flex-direction: column;
+}
+#message {
+    height: 200px;
+}
+#send_email {
+    margin-top: 30px;
+}
