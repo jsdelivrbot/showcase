@@ -1,21 +1,21 @@
 <div class="container" style="margin-top: 100px; margin-bottom: 50px;">
-  <h2 style="font-family:Avenir;">Contact Me</h2>
-  <div class="row" style="margin-top:30px;">
-    <div class="col">
-        <div class="contact_me">
-            <input [(ngModel)]="contactInfo.email" #email="ngModel" class="form-control" name="email" id="email" type="text" placeholder="Enter E-mail ID where you want to send" />
-            <input id="subject" class="form-control"   
-            [(ngModel)]="contactInfo.subject"  #subject="ngModel" name="subject" type="text" placeholder="Write Subject" />
-            <textarea class="form-control"  id="message" #message="ngModel" name="message" [(ngModel)]="contactInfo.message" cols="40" rows="5" placeholder="Write what you want to send"></textarea>
-            <button (click)="submit()" type="button" class="btn btn-secondary" id="send_email">Send Email</button>
-            
-        </div>        
-    </div>
-    <div class="col">
-        <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
-            <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-          </agm-map>
-
+    <h2 style="font-family:Avenir;">Contact Me</h2>
+    <div class="row" style="margin-top:30px;">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="contact_me">
+              <input [(ngModel)]="contactInfo.email" #email="ngModel" class="form-control" name="email" id="email" type="text" placeholder="E-mail" />
+              <input id="subject" class="form-control"   
+              [(ngModel)]="contactInfo.subject"  #subject="ngModel" name="subject" type="text" placeholder=" Subject" />
+              <textarea class="form-control"  id="message" #message="ngModel" name="message" [(ngModel)]="contactInfo.message" cols="40" rows="5" placeholder="Message... "></textarea>
+              <button (click)="submit()" type="button" class="btn btn-secondary" id="send_email">Send Email</button>
+              
+          </div>        
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+          <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
+              <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+            </agm-map>
+  
+      </div>
     </div>
   </div>
-</div>

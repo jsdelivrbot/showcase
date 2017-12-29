@@ -15,3 +15,9 @@ agm-map {
 #send_email {
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 500px) {
+    #send_email {
+       margin-bottom: 20px;
+    }
+}

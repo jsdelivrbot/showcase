@@ -35,3 +35,12 @@
     border-radius: 15px;
 
 }
+
+@media only screen and (max-width: 500px) {
+    #workOne {
+        margin-bottom: 20px;
+    }
+    #workTwo {
+        margin-bottom: 20px;
+    }
+}
