@@ -38,7 +38,7 @@ app.use(function(req, res, next) { //allow cross origin requests
 
 app.use(express.static(path.join(__dirname, 'dist')));
 app.get('*', (req, res )=>{
-    res.sendfile(path.join(__dirname, 'dist/index.html'));
+    res.sendfile(path.join(__dirname, '../dist/index.html'));
 });
 
 
