@@ -22,8 +22,8 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
  submit(){
-   console.log(this.contactInfo);
-   this.http.post('http://localhost:3000/contactme', this.contactInfo).subscribe(response => {
+   
+   this.http.post('/contactme', this.contactInfo).subscribe(response => {
           this.contactInfo = {
             email: '',
             subject: '',
