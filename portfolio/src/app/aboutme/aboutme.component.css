@@ -7,9 +7,22 @@
     font-family: Avenir;
    
 }
+ul {
+    margin-top:30px;
+    text-align: center;
+}
 ul li {
-    margin: 30px;
+    border-style: solid;
+    padding: 20px;
+    /* height: 60px; */
+    margin-left: 0px;
     font-size: 18px;
+    margin-bottom: 20px;
+    width: 250px;
+    border-radius: 5px;
+}
+ul li a {
+    color:black;
 }
 .skills_container {
     width: 150px;
