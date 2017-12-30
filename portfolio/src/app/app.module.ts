@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { TypingCarouselDirective } from './typing-carousel.directive';
 import { AgmCoreModule } from '@agm/core';
 import { AboutmeComponent } from './aboutme/aboutme.component';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
   ],
   imports: [
     BrowserModule,
+    HttpModule,
     FormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBiQOkNFVlI6IqR5vU5bXvFQWbdwosz75U'
