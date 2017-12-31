@@ -9,11 +9,27 @@ agm-map {
     display: flex;
     flex-direction: column;
 }
+.contact_me button{
+    cursor: pointer;
+}
+.contact_me input{
+    border-color: black;
+}
+.contact_me textarea{
+    border-color: black;
+}
 #message {
     height: 200px;
 }
 #send_email {
     margin-top: 30px;
+    border-color:black;
+    color:black;
+    background-color:white;
+}
+#send_email:hover {
+    background-color: gray;
+    color:white;
 }
 
 @media only screen and (max-width: 500px) {
