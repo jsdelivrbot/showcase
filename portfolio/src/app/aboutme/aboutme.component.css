@@ -32,6 +32,9 @@ ul li a {
     border-style: solid;
     align-self: center;
 }
+.skills_title{
+    margin-left: 30px;
+}
 .skills_row {
     margin-bottom: 20px;
     justify-content: space-between; 
@@ -51,5 +54,8 @@ ul li a {
     .skills_container {
         width:140px;
         padding: 18px;
+    }
+    .skills_title{
+        margin-left:0px;
     }
 }
