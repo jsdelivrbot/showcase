@@ -39,9 +39,17 @@ ul li a {
 }
 @media only screen and (max-width: 500px) {
     .skills_row {
-       margin-right: 0px;
+       margin-left: 0px;
+       margin-right:10px;
     }
     .skills_container{
         /* margin-left: 30px; */
+    }
+    ul li {
+        width:280px;
+    }
+    .skills_container {
+        width:140px;
+        padding: 18px;
     }
 }
